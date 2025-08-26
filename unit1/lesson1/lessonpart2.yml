@@ -48,7 +48,7 @@ content: >
   statements to display information, a crucial step in learning to program.
 showEditor: true
 editors:
-  - course1/unit1/lesson1/lessonpart2/Printing
+  - course1/unit1/lesson1/lessonpart2/printing.py
 questionGroups:
   - id: "1"
     questions:

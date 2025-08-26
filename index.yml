@@ -8,13 +8,15 @@ contacts:
     pictureUrl: https://avatars.githubusercontent.com/u/123449441?v=4
     homePageUrl: https://github.com/MrMackBGIS
 files:
-  - path: course1/unit1/lesson1/lessonpart2/Printing
-    content: "#Write code that will output the following things\r
+  - path: course1/unit1/lesson1/lessonpart2/printing.py
+    content: "print(\"Your very first bit of code\")\r
+
+      #Write code that will output the following things\r
 
       #1 Hello world\r
 
       \r
 
-      #2 Your name"
+      #2 Your name\r\n"
 units:
   - unit1/index.yml
