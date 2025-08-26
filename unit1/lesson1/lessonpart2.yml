@@ -1,0 +1,68 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart2
+title: Page
+content: >
+  ## Practice Questions: Printing to the Screen
+
+
+  In this exercise, you will practice using basic print statements in your
+  chosen programming language. These questions are designed to help you
+  understand how to output text to the screen, a fundamental skill in
+  programming.
+
+
+  ### Questions
+
+
+  1. **Basic Print Statement**
+     - Write a program that prints the following text to the screen: "Hello, World!"
+
+  2. **Printing Variables**
+     - Declare a variable named `greeting` and assign it the value "Welcome to Computer Science!".
+     - Print the value of the `greeting` variable to the screen.
+
+  3. **Concatenating Strings**
+     - Create two variables, `firstName` and `lastName`, and assign them your first and last names, respectively.
+     - Print a message to the screen that says "Hello, [firstName] [lastName]!" by concatenating the variables.
+
+  4. **Using Escape Characters**
+     - Write a program that prints the following text, including the quotation marks: "Programming is fun!"
+     - Use escape characters to include the quotation marks in your output.
+
+  5. **Printing Numbers**
+     - Declare a variable `age` and assign it your age.
+     - Print a message to the screen that says "I am [age] years old."
+
+  ### Tips
+
+
+  - Remember to use the correct syntax for print statements in your programming
+  language.
+
+  - Pay attention to details like spaces and punctuation in your output.
+
+  - Test your code to ensure it produces the expected output.
+
+
+  By completing these exercises, you'll gain confidence in using print
+  statements to display information, a crucial step in learning to program.
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart2/Printing
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: choice
+        content: Which of the following statements correctly prints the text
+          "Programming is fun!" including the quotation marks in most
+          programming languages?
+        options:
+          - id: "1"
+            value: print("Programming is fun!")
+            explanation: This statement uses escape characters to include the quotation
+              marks.
+            isCorrect: true
+          - id: "2"
+            value: print(Programming is fun!)
+            explanation: This statement is missing quotation marks around the text.
