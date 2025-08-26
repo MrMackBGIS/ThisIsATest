@@ -47,6 +47,7 @@ content: >
   By completing these exercises, you'll gain confidence in using print
   statements to display information, a crucial step in learning to program.
 showEditor: true
+showExplorer: true
 editors:
   - course1/unit1/lesson1/lessonpart2/printing.py
 questionGroups:
